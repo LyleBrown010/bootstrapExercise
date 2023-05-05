@@ -1,0 +1,82 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    height:70px ;
+    width: 70px ;
+}
+main{
+    /* background-image: url(./images/background.jpg); */
+}
+#picture-bio{
+    height: 90%;
+    width: 80%;
+}
+
+#bio{
+    background-color: rgb(194, 194, 194) !important;
+}
+
+.color{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    position: relative;
+    animation-name: colors;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+
+}
+
+@keyframes colors{
+    0%   {background-color:aliceblue; left:1%; top:0px;}
+    25%  {background-color:yellow; left:25%; top:0px;}
+    50%  {background-color:blue; left:50%; top:0px;}
+    75%  {background-color:green; left:75%; top:0px;}
+    100% {background-color: aliceblue; left:95%; top:0px;}
+}
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+  #education{
+    color: white !important;
+  }
+
+  .icons{
+    width: 55px;
+    padding: 10px;    
+  }
+
+  #contact-form{
+    background-color: rgb(194, 194, 194) !important ;
+  }
+
+  .footer{
+    background-color: black !important ;
+    color: white !important ;
+  }
